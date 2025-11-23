@@ -1,0 +1,92 @@
+/* Estilo geral */
+body {
+  background: #f3f4f6;
+  font-family: Arial, sans-serif;
+}
+
+/* Container principal */
+.container {
+  background: white;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 450px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Título */
+.titulo {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* Área de adicionar tarefa */
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Botões gerais */
+.btn,
+.filtros button {
+  padding: 10px 15px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover,
+.filtros button:hover {
+  background: #2563eb;
+}
+
+/* Botão adicionar */
+.adicionar {
+  background: #10b981;
+}
+.adicionar:hover {
+  background: #059669;
+}
+
+/* Filtros */
+.filtros {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* Lista de tarefas */
+.lista {
+  margin-top: 25px;
+  padding: 0;
+  list-style: none;
+}
+
+/* Item da tarefa */
+.tarefa {
+  background: #f9fafb;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+/* Tarefa concluída */
+.tarefa-concluida {
+  text-decoration: line-through;
+  color: gray;
+}
